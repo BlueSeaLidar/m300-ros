@@ -9,7 +9,7 @@ Provide M300 radar with ROS driver, which can run on ROS1 version and has built-
 
     mkdir m300_ros   											//create a folder and customize it
     cd m300_ros 												//into this folder
-    git clone https://github.com/BlueSeaLidar/XXX.git  src //download the driver package and rename it to src
+    git clone https://github.com/BlueSeaLidar/m300-ros.git  src //download the driver package and rename it to src
 2.Build
 
     catkin_make
@@ -25,7 +25,7 @@ Provide M300 radar with ROS driver, which can run on ROS1 version and has built-
 ## Driver launch launch file
 
 
-Main parameter configuration instructionsï¼š
+Main parameter configuration instructionsï¼?
 
     param name="lidar_ip" value="192.168.1.33"#Lidar_IP
     param name="frame_id_Msg" value="m300_frame_test"#msg frame_id
