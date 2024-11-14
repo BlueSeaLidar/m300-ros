@@ -1,0 +1,7 @@
+<launch>
+  <node name="M300" pkg="Lidar_M300" type="Lidar_M300" output="screen">
+  <param name="lidar_ip" value="192.168.1.133" />
+  <param name="frame_id_Msg" value="m300_frame_test" />
+  <param name="frame_id_PointCloud2" value="base_link_test" />
+  </node>
+</launch>
